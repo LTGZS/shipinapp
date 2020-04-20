@@ -1,20 +1,70 @@
 *{
-			border: 0;
 			margin: 0;
-			}
-		video{
-			display: block;
-			margin-bottom:30px;
+			padding: 0;
+		}
+		body{
+			background-color: #4f4f4f;
+		}
+		
+		.spbfnr{
+			display: none;
+			position: fixed;
+			z-index: 999;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			width: 100%;
+			height: 100%;
+			background-color: #4f4f4f;
+		}
+		.spbfnr video{
 			width: 100%;
 			height: 250px;
-			background-color: black;
+			background-color: #000000;
+			margin: 0 auto;
+			outline:none; 
+			/* border-radius: 20px; */
+			/* border: 3px solid white; */
+			box-shadow:  5px 5px 5px #333333, -5px -5px 5px #666666;
+		}
+		.dynr{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.dyhb{
+			display:block;
+			overflow: hidden;
+			border-radius: 5px !important;
+			margin: 6px !important;
+			width: 100px;
+			height: 146px;
+			box-shadow: 2px 2px 3px #333333, -2px -2px 3px #666666;
 			
 		}
-		p{
+		.dyhb i{
 			width: 100%;
+			height: 20px;
+			display: block;
+			background-color: #000000;
+			white-space:nowrap;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			margin-bottom: -10px;
+			font-size: 12px;
 			font-weight: bold;
-			font-size:14px;
-			text-align:center;
-			
-			border-top: 5px solid #000000;
 		}
+		.dyhb img{
+			margin: 0 auto;
+			border-radius: 5px !important;
+			display: block;
+			width: 100%;
+			height: 100%;
+			box-shadow: inset 2px 2px 3px #333333, inset -2px -2px 3px #666666;
+		}
+		.dyhb:hover img{
+			 -webkit-filter: blur(2px);
+			     filter: blur(2px);
+		}
+		
