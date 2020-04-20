@@ -194,11 +194,51 @@ if(Hls.isSupported()) {
 		  video.pause();
 		});
 	}						
-						
-						
-						
-						
-						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo22');
+		var hls = new Hls();
+		hls.loadSource('https://meng.wuyou-zuida.com/20191224/24604_ebee6c6a/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo23');
+		var hls = new Hls();
+		hls.loadSource('https://bilibili.com-l-163.com/20181022/14696_a33fb3df/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}							
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo24');
+		var hls = new Hls();
+		hls.loadSource('https://iqiyi.zuidameiju.com/20200304/13094_f52b1c2b/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo25');
+		var hls = new Hls();
+		hls.loadSource('https://yun.zxziyuan-yun.com/20180601/gyrAnoEk/1000kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo26');
+		var hls = new Hls();
+		hls.loadSource('https://yun.zxziyuan-yun.com/20180320/3g01xniy/800kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}						
 						
 						
 						

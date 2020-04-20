@@ -311,10 +311,76 @@ function myFunction21() {
 			       }
 		}	
 	
-	
-	
-	
-	
+function myFunction22() {
+		    var x = document.getElementById("spbfnr22");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo22');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}	
+function myFunction23() {
+		    var x = document.getElementById("spbfnr23");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo23');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}			
+function myFunction24() {
+		    var x = document.getElementById("spbfnr24");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo24');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}	
+function myFunction25() {
+		    var x = document.getElementById("spbfnr25");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo25');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}	
+function myFunction26() {
+		    var x = document.getElementById("spbfnr26");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo26');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}	
 	
 	
 	
