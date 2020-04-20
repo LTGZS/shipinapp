@@ -1,7 +1,7 @@
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo');
 		var hls = new Hls();
-		hls.loadSource('https://dbx4.tyswmp.com/20190406/Y1j2yoAw/index.m3u8');
+		hls.loadSource('https://yun.kubozy-youku-163.com/20190426/11884_246c3c4e/1000k/hls/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
