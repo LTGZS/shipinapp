@@ -257,6 +257,14 @@ if(Hls.isSupported()) {
 		  video.pause();
 		});
 	}						
-						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo29');
+		var hls = new Hls();
+		hls.loadSource('https://vip.okokbo.com/20171211/L4uDWAEf/800kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}							
 						
 						
