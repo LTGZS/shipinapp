@@ -266,5 +266,13 @@ if(Hls.isSupported()) {
 		  video.pause();
 		});
 	}							
-						
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo30');
+		var hls = new Hls();
+		hls.loadSource('https://hair.jingpin88.com/ppvod/947BD620C28EDB2519A6BAD9DB699141.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}						
 						
