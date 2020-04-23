@@ -1,7 +1,15 @@
 
 
 
-
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo34');
+		var hls = new Hls();
+		hls.loadSource('https://yiyi.55zuiday.com/ppvod/2CE3EF9FE0029012C96937447C370762.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo33');
 		var hls = new Hls();
