@@ -1,3 +1,34 @@
+
+
+
+
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo33');
+		var hls = new Hls();
+		hls.loadSource('https://wuji.zhulong-zuida.com/20190919/8670_9677452e/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo32');
+		var hls = new Hls();
+		hls.loadSource('https://leshi.cdn-zuyida.com/20170918/P4hBMKKP/600kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo31');
+		var hls = new Hls();
+		hls.loadSource('https://leshi.cdn-zuyida.com/20171028/Yqz6qKrO/800kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo');
 		var hls = new Hls();

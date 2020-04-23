@@ -1,5 +1,51 @@
 
-// 视频特推内容
+
+
+
+
+
+function myFunction33() {
+		    var x = document.getElementById("spbfnr33");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo33');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}
+function myFunction32() {
+		    var x = document.getElementById("spbfnr32");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo32');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}
+function myFunction31() {
+		    var x = document.getElementById("spbfnr31");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo31');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}
 function myFunction() {
 		    var x = document.getElementById("spbfnr");
 		    if (x.style.display === "block") {
