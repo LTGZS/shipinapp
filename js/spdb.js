@@ -2,7 +2,34 @@
 
 
 
-
+function myFunction36() {
+		    var x = document.getElementById("spbfnr36");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo36');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}
+function myFunction35() {
+		    var x = document.getElementById("spbfnr35");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo35');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}		
 function myFunction34() {
 		    var x = document.getElementById("spbfnr34");
 		    if (x.style.display === "block") {

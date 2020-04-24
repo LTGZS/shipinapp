@@ -1,6 +1,27 @@
 
 
 
+
+
+
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo36');
+		var hls = new Hls();
+		hls.loadSource('https://yi.jingdianzuida.com/ppvod/8CFD8E5821AE7647A2B9782C1F457F3A.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo35');
+		var hls = new Hls();
+		hls.loadSource('https://leshi.cdn-zuyida.com/20170913/68WuDWfL/600kb/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo34');
 		var hls = new Hls();
