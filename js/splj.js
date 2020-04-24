@@ -1,9 +1,33 @@
 
 
 
-
-
-
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo39');
+		var hls = new Hls();
+		hls.loadSource('https://haoa.haozuida.com/ppvod/F45A08CB0FE3917CD5916165F656CD93.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo38');
+		var hls = new Hls();
+		hls.loadSource('https://yuledy.helanzuida.com/20200324/958_0fc10de4/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo37');
+		var hls = new Hls();
+		hls.loadSource('https://meng.wuyou-zuida.com/20200311/27848_7a7ce3fb/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo36');
 		var hls = new Hls();
