@@ -1,6 +1,18 @@
 
 
 
+
+
+
+if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo40');
+		var hls = new Hls();
+		hls.loadSource('https://bili.meijuzuida.com/20191127/21976_433d58fe/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo39');
 		var hls = new Hls();
