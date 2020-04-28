@@ -2,7 +2,20 @@
 
 
 
-
+function myFunction41() {
+		    var x = document.getElementById("spbfnr41");
+		    if (x.style.display === "block") {
+		        x.style.display = "none";
+		    } else {
+		        x.style.display = "block";
+		    }
+			var video = document.getElementById('myVideo41');
+			       if(video.paused){ //如果已暂停则播放
+			           video.pause(); //播放控制
+			       }else{ // 已播放点击则暂停
+			           video.pause(); //暂停控制
+			       }
+		}
 function myFunction40() {
 		    var x = document.getElementById("spbfnr40");
 		    if (x.style.display === "block") {
