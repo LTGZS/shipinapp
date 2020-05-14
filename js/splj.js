@@ -4,6 +4,15 @@
 
 
 if(Hls.isSupported()) {
+		var video = document.getElementById('myVideo42');
+		var hls = new Hls();
+		hls.loadSource('https://bili.meijuzuida.com/20191115/21894_b91baed6/1000k/hls/index.m3u8');
+		hls.attachMedia(video);
+		hls.on(Hls.Events.MANIFEST_PARSED,function() {
+		  video.pause();
+		});
+	}
+if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo41');
 		var hls = new Hls();
 		hls.loadSource('https://iqiyi.zuidameiju.com/20200320/13734_7e9f4e4b/1000k/hls/index.m3u8');
